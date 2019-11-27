@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Screen Savers</string>
+
+    <string name="slow">Slow</string>
+    <string name="fast">Fast</string>
+
+</resources>
