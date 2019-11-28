@@ -40,6 +40,7 @@ public class ColorShifter extends Activity {
             }
         });
 
+
         speedController = findViewById(R.id.seekBar);
         speedController.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
@@ -60,7 +61,7 @@ public class ColorShifter extends Activity {
 
         shiftColor();
 
-        Toast.makeText(this, "Tap on Screen for controls", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Tap on Screen to toggle controls", Toast.LENGTH_SHORT).show();
 
     }
 
