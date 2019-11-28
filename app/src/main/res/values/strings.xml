@@ -3,5 +3,6 @@
 
     <string name="slow">Slow</string>
     <string name="fast">Fast</string>
+    <string name="clear">Clear Screen</string>
 
 </resources>
