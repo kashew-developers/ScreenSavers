@@ -41,6 +41,14 @@ public class MainActivity extends FragmentActivity {
             }
         });
 
+        findViewById(R.id.straightLinesBox).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                i.putExtra("ScreenSaverId", 2);
+                startActivity(i);
+            }
+        });
+
     }
 
     @Override
