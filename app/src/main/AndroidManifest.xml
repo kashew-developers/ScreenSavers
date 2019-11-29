@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <activity android:name=".FragmentHolderActivity"></activity>
-        <activity android:name=".RandomLines" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

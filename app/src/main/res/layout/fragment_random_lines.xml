@@ -4,7 +4,7 @@
     android:id="@+id/displayArea"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RandomLines">
+    tools:context=".Fragments.RandomLinesFragment">
 
     <ImageView
         android:id="@+id/drawingArea"
@@ -73,6 +73,5 @@
             android:textStyle="bold|italic" />
 
     </LinearLayout>
-
 
 </RelativeLayout>
