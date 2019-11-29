@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <activity android:name=".RandomLines"></activity>
-        <activity android:name=".ColorShifter" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
