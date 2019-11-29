@@ -9,5 +9,6 @@
     <string name="colorShifter">Color Shifter</string>
     <string name="randomLines">Random Lines</string>
     <string name="straightLines">Straight Lines</string>
+    <string name="circles">Circles</string>
 
 </resources>

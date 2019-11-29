@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
+import in.kashewdevelopers.screensavers.Fragments.CirclesFragment;
 import in.kashewdevelopers.screensavers.Fragments.ColorShifterFragment;
 import in.kashewdevelopers.screensavers.Fragments.RandomLinesFragment;
 import in.kashewdevelopers.screensavers.Fragments.StraightLinesFragment;
@@ -30,6 +31,9 @@ public class FragmentHolderActivity extends FragmentActivity {
                 break;
             case 2:
                 fragmentTransaction.replace(R.id.fragmentHolder, new StraightLinesFragment());
+                break;
+            case 3:
+                fragmentTransaction.replace(R.id.fragmentHolder, new CirclesFragment());
                 break;
         }
 

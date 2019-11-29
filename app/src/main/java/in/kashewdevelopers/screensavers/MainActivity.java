@@ -49,6 +49,14 @@ public class MainActivity extends FragmentActivity {
             }
         });
 
+        findViewById(R.id.circlesBox).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                i.putExtra("ScreenSaverId", 3);
+                startActivity(i);
+            }
+        });
+
     }
 
     @Override
