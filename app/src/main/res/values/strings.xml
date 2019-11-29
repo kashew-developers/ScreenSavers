@@ -5,4 +5,8 @@
     <string name="fast">Fast</string>
     <string name="clear">Clear Screen</string>
 
+    <!-- Screen Savers -->
+    <string name="colorShifter">Color Shifter</string>
+    <string name="randomLines">Random Lines</string>
+
 </resources>
