@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
 import in.kashewdevelopers.screensavers.Fragments.ColorShifterFragment;
+import in.kashewdevelopers.screensavers.Fragments.RandomLinesFragment;
 
 public class FragmentHolderActivity extends FragmentActivity {
 
@@ -23,6 +24,9 @@ public class FragmentHolderActivity extends FragmentActivity {
         switch ( screenSaverId ){
             case 0:
                 fragmentTransaction.replace(R.id.fragmentHolder, new ColorShifterFragment());
+                break;
+            case 1:
+                fragmentTransaction.replace(R.id.fragmentHolder, new RandomLinesFragment());
                 break;
         }
 
