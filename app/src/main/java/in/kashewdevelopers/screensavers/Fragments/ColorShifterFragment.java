@@ -80,7 +80,7 @@ public class ColorShifterFragment extends Fragment {
             });
 
             // Toast
-            Toast.makeText(context, "Tap on Screen to toggle controls", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Tap to toggle controls", Toast.LENGTH_SHORT).show();
         }
 
         shiftColor();

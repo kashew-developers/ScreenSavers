@@ -91,7 +91,7 @@ public class RandomLinesFragment extends Fragment {
         // show toast and make widgets clickable only if it is in FragmentHolderActivity
         if( getActivity().getLocalClassName().equals("FragmentHolderActivity") ) {
 
-            Toast.makeText(context, "Tap to toggle controls", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "Tap to toggle controls", Toast.LENGTH_SHORT).show();
 
 
             // Widget OnClick Methods

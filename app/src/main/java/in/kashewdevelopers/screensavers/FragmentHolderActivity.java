@@ -3,7 +3,6 @@ package in.kashewdevelopers.screensavers;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.os.Bundle;
 
 import in.kashewdevelopers.screensavers.Fragments.ColorShifterFragment;
