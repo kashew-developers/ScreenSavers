@@ -26,6 +26,10 @@ More Screensavers are under development.
 This is an opensource application. You can find its source code at:
 https://github.com/kashew-developers/ScreenSavers</td>
     </tr>
+    <tr>
+        <th>YouTube</th>
+        <td>https://youtu.be/wQzr8FSo3xs</td>
+    </tr>
 </table>
 
 
